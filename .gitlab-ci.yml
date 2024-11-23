@@ -1,0 +1,35 @@
+stages:
+  - test
+  - build
+  - deploy
+
+# Use the shared runner (LabraNet in this case) by applying the `general` tag.
+test:
+  stage: test
+  tags:
+    - general
+  script:
+    - npm install
+    - npm test
+
+build:
+  stage: build
+  tags:
+    - general
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - / # Adjust this to your app's output directory.
+
+deploy:
+  stage: deploy
+  tags:
+    - general
+  before_script:
+    - npm install -g vercel
+  script:
+    - vercel --token $VERCEL_TOKEN --prod --confirm --cwd ./
+  only:
+    - main  # Deploy only on pushes to the main branch.

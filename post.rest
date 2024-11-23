@@ -1,0 +1,11 @@
+POST http://localhost:3000/album/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2ZiNGYyZDQ1Nzc1OWNlZTE5M2IxNiIsImlhdCI6MTczMjIyOTg3OSwiZXhwIjoxNzMyMjMzNDc5fQ.hvaA4F_XMujYbrfI7kVEOLtrQ8sEn71oZK7rw_cyLc0
+Content-Type: application/json
+
+{
+    "artist": "Lenovo",
+    "title": "thinkpad",
+    "year": 2020,
+    "genre": "Pop",
+    "tracks": 10
+}

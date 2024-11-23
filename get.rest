@@ -1,0 +1,8 @@
+GET https://my-deployment.vercel.app/album
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2Y1ZDFiNDJjNzU4MWU2YmIxYTA3ZiIsImlhdCI6MTczMjIwNzYyMywiZXhwIjoxNzMyMjExMjIzfQ.1FcGUk6whJ2Fye9NNmOTjqYn45X7qfU2ZEkIm2LL8E0
+Content-Type: application/json
+
+{
+    "email": "dev@gmail.com",
+    "password": "developer"
+}

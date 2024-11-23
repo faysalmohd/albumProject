@@ -1,0 +1,2 @@
+PUT http://localhost:3000/album/673f5dcd42c7581e6bb1a083?field=artist&value=Faysal
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2Y1ZDFiNDJjNzU4MWU2YmIxYTA3ZiIsImlhdCI6MTczMjIwNTk0OCwiZXhwIjoxNzMyMjA5NTQ4fQ.heH-GXhWDxUf3zHAGEtn6nHzfumwbSnYTl3p3s4UJZ4
